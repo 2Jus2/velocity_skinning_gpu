@@ -96,7 +96,7 @@ void rotation_tracker::add(const quaternion& new_rotation, float time)
 
 
     last_rotation = new_rotation;
-    ast_speed = avg_rotation_speed;
+    last_speed = avg_rotation_speed;
     last_time = time;
 
 }
