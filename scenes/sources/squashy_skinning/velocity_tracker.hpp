@@ -47,7 +47,6 @@ struct rotation_tracker
     // temporal filter new_speed = alpha*old_speed + (1-alpha)*current_speed
     float alpha_speed = 0.75f;//0.75f;
     float alpha_acceleration = 0.9f;
-    //float alpha_acceleration = 0.9f;
 };
 
 template< typename T >

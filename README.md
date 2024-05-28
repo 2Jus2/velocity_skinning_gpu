@@ -1,3 +1,25 @@
+# Our Implementation
+
+Files that we have modified are located in scenes/sources/squashy_skinning
+
+## skinning.cpp
+| Lines Changed    | Implementation details |
+| -------- | ------- |
+| 130-131  | To calculate the new linear and angular acceleration    |
+
+## velocity_tracker.cpp
+| Lines Changed    | Implementation details |
+| -------- | ------- |
+| 87-91  | To calculate the average rotation acceleration    |
+| 99  | Sets the last speed as the current rotation speed    |
+
+## velocity_tracker.hpp
+| Lines Changed    | Implementation details |
+| -------- | ------- |
+| 87-91  | To calculate the average rotation acceleration    |
+| 99  | Sets the last speed as the current rotation speed    |
+
+
 # GPU Velocity Skinning Code
 
 - The shader is in the file velocity_skinning_shader
