@@ -1,6 +1,6 @@
 # Our Implementation
 
-Files that we have modified are located in scenes/sources/squashy_skinning
+Files that we have modified are located in scenes/sources/squashy_skinning and main
 
 ## skinning.cpp
 | Lines Changed    | Implementation details |
@@ -19,6 +19,15 @@ Files that we have modified are located in scenes/sources/squashy_skinning
 | 87-91  | To calculate the average rotation acceleration    |
 | 99  | Sets the last speed as the current rotation speed    |
 
+
+## main.cpp
+| Lines Changed    | Implementation details |
+| -------- | ------- |
+| 1-4 | Add user-defined file    |
+| 31-62  |  Implement computation time, CPU and GPU memory usage   |
+| 98-100  |  Initialise GPU time query    |
+| 117-121  |  Set up GPU time query and computation time   |
+| 131-150  |  Calculate computation time, CPU and GPU memory usage   |
 
 # GPU Velocity Skinning Code
 
