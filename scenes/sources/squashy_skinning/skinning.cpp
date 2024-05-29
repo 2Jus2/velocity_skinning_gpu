@@ -128,7 +128,7 @@ void scene_model::velocity_skinning(float magnitude)
     {
         vec3 const& p_joint = skeleton_speed_per_joint.data[joint].center;
         vec3 const& linear_speed = (skeleton_joint_speed[joint].avg_acceleration / timer_skeleton.scale + skeleton_fake_speed_per_joint.data[joint].linear_speed);
-        vec3 const& angular_speed = (skeleton_joint_rotation_speed[joint].avg_rotation_acceleration / timer_skeleton.scale + skeleton_fake_speed_per_joint.data[joint].linear_speed);
+        vec3 const& angular_speed = (skeleton_joint_rotation_speed[joint].avg_rotation_acceleration / timer_skeleton.scale + skeleton_fake_speed_per_joint.data[joint].angular_speed);
 
         // vec3 const linear_speed = (skeleton_speed_per_joint.data[joint].linear_speed / timer_skeleton.scale + skeleton_fake_speed_per_joint.data[joint].linear_speed);
         // vec3 const angular_speed = (skeleton_speed_per_joint.data[joint].angular_speed / timer_skeleton.scale + skeleton_fake_speed_per_joint.data[joint].angular_speed);
