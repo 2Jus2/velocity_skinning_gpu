@@ -5,20 +5,19 @@ Files that we have modified are located in scenes/sources/squashy_skinning and m
 ## skinning.cpp
 | Lines Changed    | Implementation details |
 | -------- | ------- |
-| 130-131  | To calculate the new linear and angular acceleration    |
+| 130-133  | To calculate the new linear and angular acceleration    |
 
 ## velocity_tracker.cpp
 | Lines Changed    | Implementation details |
 | -------- | ------- |
-| 87-91  | To calculate the average rotation acceleration    |
-| 99  | Sets the last speed as the current rotation speed    |
+| 87-93  | To calculate the average rotation acceleration    |
+| 102  | Sets the last speed as the current rotation speed    |
 
 ## velocity_tracker.hpp
 | Lines Changed    | Implementation details |
 | -------- | ------- |
 | 87-91  | To calculate the average rotation acceleration    |
 | 99  | Sets the last speed as the current rotation speed    |
-
 
 ## main.cpp
 | Lines Changed    | Implementation details |
